@@ -1,0 +1,81 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background:color(  rgb(166, 199, 166) ) ;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background: #699cd6;
+  }
+  .logo {
+    max-width: 150px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  nav ul li {
+    padding: 0 1em;
+  }
+  nav ul li a {
+    color: rgb(35, 58, 90);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  .hero {
+    text-align: center;
+    padding: 2em;
+    background: url('https://img.freepik.com/premium-photo/sport-things-players_1142157-12208.jpg?w=740');
+    background-size: cover;
+  }
+  .featured-products {
+    padding: 2em;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+  }
+  .product {
+    
+    text-align: center;
+  }
+  footer {
+    background: #16412d;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em;
+  }
+  .product {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 8px;
+  }
+  .product img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1em;
+  }
+  .product-name {
+    font-size: 1.1em;
+    margin: 0;
+  }
+ 

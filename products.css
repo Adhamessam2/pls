@@ -1,0 +1,21 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1em;
+  }
+  .product {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 8px;
+  }
+  .product img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1em;
+  }
+  .product-name {
+    font-size: 1.1em;
+    margin: 0;
+  }
